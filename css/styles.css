@@ -1,0 +1,121 @@
+/* font family */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap");
+
+/* Variables */
+:root {
+  --color-background: #272a31;
+  --color-text-gray: #515151;
+  --color-text-dark-gray: #595959;
+  --color-gray: #868686;
+  --color-lighter-gray: #ececec;
+  --color-light-gray: #d3d3d3;
+  --color-carmine-pink: #ec5242;
+  --color-carmine-pink-rgba: rgba(74, 20, 14, 0.95);
+  --color-royal-orange: #e72a17;
+  --color-white: #fff;
+  --color-dark-charcoal: #323232;
+  --color-dark-gray: #494e5a;
+  --transition: all 0.3s ease-in;
+}
+
+/* General styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+/* Mobile Header */
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 6px 24px;
+  background-color: var(--color-white);
+  border-bottom: 5px solid var(--color-light-gray);
+}
+.hamburger {
+  font-size: 34px;
+}
+.header-logo {
+  width: 130px;
+  height: 51px;
+  margin-left: 70px;
+}
+.hero-container {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 90px;
+}
+.hero-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85%;
+  background-image: url(../assets/images/hero-background-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+.hero h4 {
+  font-size: 24px;
+  color: var(--color-royal-orange);
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.hero h1 {
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 35px;
+  color: var(--color-royal-orange);
+  margin-bottom: 30px;
+}
+
+.sub-theme p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: -1%;
+  border: 2px solid var(--color-white);
+  padding: 10px;
+  color: var(--color-text-gray);
+  margin-bottom: 30px;
+}
+.date-venue h3 {
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: -8%;
+  color: var(--color-text-dark-gray);
+  margin-bottom: 8px;
+}
+.date-venue p {
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: -2%;
+  color: #868686;
+}
