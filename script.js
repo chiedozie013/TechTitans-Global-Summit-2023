@@ -1,8 +1,30 @@
+const btn = document.querySelector(".hamburger");
+const showHamburger = document.querySelector(".showHamburger");
+const menuLinks = document.querySelectorAll(".menu-links");
+const closeBtn = document.querySelector(".close-cross");
+// Speakers
 const speakers = document.querySelector(".speakers");
 const more = document.querySelector(".more-btn");
 const less = document.querySelector(".less-btn");
 
-// Individual Speaker
+// Mobile Menu
+function openButton() {
+  showHamburger.classList.add("show-showHamburger");
+}
+
+btn.addEventListener("click", openButton);
+
+function closeButton() {
+  showHamburger.classList.remove("show-showHamburger");
+}
+
+closeBtn.addEventListener("click", closeButton);
+
+menuLinks.forEach((link) =>
+  link.addEventListener("click", () => {
+    showHamburger.classList.remove("show-showHamburger");
+  })
+);
 
 const mainSpeakers = [
   {

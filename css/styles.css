@@ -45,6 +45,56 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
 }
+/* Mobile Nav Menu */
+.close-cross {
+  padding-left: 210px;
+  color: #979493;
+  font-size: 24px;
+}
+
+.showHamburger {
+  display: none;
+}
+
+.showHamburger ul {
+  position: absolute;
+  z-index: 2;
+  width: 80%;
+  height: 80vh;
+  background-color: #3c3a39;
+  display: block;
+  padding: 0 24px;
+}
+
+.showHamburger ul a {
+  text-decoration: none;
+}
+
+.showHamburger li {
+  list-style: none;
+  font-family: "inter", serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 44px;
+  color: #fff5e1;
+  padding: 10px 12px;
+  z-index: 10;
+  border-bottom: 1px solid #6f6c6b;
+  margin-top: 10px;
+}
+
+.fas.fa-bars {
+  color: var(--color-gray);
+}
+
+.hamburger:hover {
+  transform: scale(1.2);
+  transition: all 0.8s ease-out;
+}
+
+.show-showHamburger {
+  display: block;
+}
 
 /* Mobile Header */
 .header-container {
