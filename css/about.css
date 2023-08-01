@@ -1,3 +1,10 @@
+.about-container {
+  background-color: var(--color-lighter-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .about-hero {
   display: flex;
   flex-direction: column;
@@ -6,7 +13,6 @@
   padding: 0 12px;
   padding-top: 10px;
   padding-bottom: 30px;
-  background-color: var(--color-lighter-gray);
 }
 
 .about-hero h4 {
@@ -53,6 +59,8 @@
   letter-spacing: 2%;
   text-align: center;
   color: var(--color-gray);
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .logo-info,
@@ -165,4 +173,55 @@
   font-size: 14px;
   line-height: 21px;
   color: var(--color-white);
+}
+
+/* DESKTOP STYLES */
+@media screen and (min-width: 750px) {
+  .about-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .about-hero h4 {
+    display: none;
+  }
+  .about-hero h1 {
+    font-size: 45px;
+    width: 60%;
+    line-height: 42px;
+  }
+  .about-intro {
+    width: 60%;
+  }
+  .about-intro p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .about-contact p {
+    font-size: 16px;
+    letter-spacing: 3%;
+  }
+  .about-contact h4 {
+    font-size: 17px;
+    letter-spacing: 2%;
+  }
+  .logo-container {
+    padding-bottom: 50px;
+  }
+  .logo-info-heading {
+    display: flex;
+    gap: 7px;
+    padding-top: 50px;
+  }
+  .logo-info-heading h2,
+  .previous-summit-info h2 {
+    font-size: 27px;
+    letter-spacing: -3%;
+  }
+  .logo {
+    margin-top: 30px;
+    padding: 20px 0;
+  }
+  .previous-summit-img {
+    flex-direction: row;
+  }
 }

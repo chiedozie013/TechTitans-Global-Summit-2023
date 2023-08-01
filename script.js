@@ -80,6 +80,7 @@ const mainSpeakers = [
 const speaker = function () {
   for (let index = 0; index < mainSpeakers.length; index += 1) {
     speakers.innerHTML += `
+          
           <div class="speaker-details speaker-details-display">
               <img
                 src="${mainSpeakers[index].img}"
