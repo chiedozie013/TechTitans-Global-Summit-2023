@@ -21,6 +21,7 @@
   font-weight: 500;
   margin-bottom: 10px;
 }
+
 .about-hero h1 {
   font-size: 32px;
   font-weight: 900;
@@ -30,6 +31,7 @@
   margin-bottom: 30px;
   text-align: center;
 }
+
 .about-intro {
   background-color: var(--color-white);
   font-weight: 400;
@@ -45,6 +47,7 @@
   background-color: var(--color-lighter-gray);
   padding: 20px 30px;
 }
+
 .about-contact p {
   font-weight: 700;
   font-size: 12px;
@@ -52,6 +55,7 @@
   text-align: center;
   color: var(--color-text-gray);
 }
+
 .about-contact h4 {
   font-weight: 800;
   font-size: 12px;
@@ -73,6 +77,7 @@
   padding: 30px 10px;
   background-color: var(--color-white);
 }
+
 .logo-info-heading h2,
 .previous-summit-info h2 {
   font-weight: 700;
@@ -82,10 +87,12 @@
   text-align: center;
   color: var(--color-dark-charcoal);
 }
+
 .logo-underline {
   border-bottom: 2px solid #a04038;
   width: 40px;
 }
+
 .logo-info p,
 .previous-summit-info p {
   font-weight: 700;
@@ -94,6 +101,7 @@
   letter-spacing: -3%;
   text-align: center;
 }
+
 .logo {
   display: flex;
   justify-content: center;
@@ -101,6 +109,7 @@
   border-top: 1px solid var(--color-light-gray);
   border-bottom: 1px solid var(--color-light-gray);
 }
+
 .logo img {
   padding: 30px 0;
 }
@@ -119,6 +128,7 @@
   gap: 24px;
   margin-bottom: 50px;
 }
+
 .buenous-img-container::before,
 .hawaii-img-container::before {
   content: "";
@@ -131,6 +141,7 @@
   opacity: 0.5;
   z-index: -1;
 }
+
 .buenous-img-container {
   display: flex;
   flex-direction: column;
@@ -145,6 +156,7 @@
   background-repeat: no-repeat;
   z-index: 10;
 }
+
 .hawaii-img-container {
   display: flex;
   flex-direction: column;
@@ -159,6 +171,7 @@
   background-repeat: no-repeat;
   z-index: 10;
 }
+
 .buenous-img-container h2,
 .hawaii-img-container h2 {
   font-weight: 700;
@@ -174,6 +187,7 @@
   line-height: 21px;
   color: var(--color-white);
 }
+
 .desktop-icon {
   display: none;
 }
@@ -184,65 +198,80 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
   .about-hero h4,
   .partners-container,
   .mobile-icon {
     display: none;
   }
+
   .about-hero h1 {
     font-size: 45px;
     width: 60%;
     line-height: 42px;
   }
+
   .about-intro {
     width: 60%;
   }
+
   .about-intro p {
     font-size: 14px;
     line-height: 25px;
   }
+
   .about-contact p {
     font-size: 16px;
     letter-spacing: 3%;
   }
+
   .about-contact h4 {
     font-size: 17px;
     letter-spacing: 2%;
   }
+
   .logo-container {
     padding-bottom: 50px;
   }
+
   .logo-info-heading {
     display: flex;
     gap: 7px;
     padding-top: 50px;
   }
+
   .logo-info-heading h2,
   .previous-summit-info h2 {
     font-size: 27px;
     letter-spacing: -3%;
   }
+
   .logo {
     margin-top: 30px;
     padding: 20px 0;
   }
+
   .previous-summit-img {
     flex-direction: row;
   }
+
   .footer-container {
     background-color: var(--color-gray);
     gap: 100px;
     padding: 70px 0;
   }
+
   .footer-container img {
     width: 150px;
     height: 30px;
   }
+
   .footer-text p {
     font-size: 16px;
     line-height: 15px;
     color: var(--color-white);
   }
+
   .desktop-icon {
     display: inline-block;
   }
