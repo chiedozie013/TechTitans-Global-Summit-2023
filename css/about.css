@@ -174,6 +174,9 @@
   line-height: 21px;
   color: var(--color-white);
 }
+.desktop-icon {
+  display: none;
+}
 
 /* DESKTOP STYLES */
 @media screen and (min-width: 750px) {
@@ -181,7 +184,9 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  .about-hero h4 {
+  .about-hero h4,
+  .partners-container,
+  .mobile-icon {
     display: none;
   }
   .about-hero h1 {
@@ -223,5 +228,22 @@
   }
   .previous-summit-img {
     flex-direction: row;
+  }
+  .footer-container {
+    background-color: var(--color-gray);
+    gap: 100px;
+    padding: 70px 0;
+  }
+  .footer-container img {
+    width: 150px;
+    height: 30px;
+  }
+  .footer-text p {
+    font-size: 16px;
+    line-height: 15px;
+    color: var(--color-white);
+  }
+  .desktop-icon {
+    display: inline-block;
   }
 }
