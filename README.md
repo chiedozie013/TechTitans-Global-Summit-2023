@@ -45,13 +45,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [https://chiedozie013.github.io/](https://chiedozie013.github.io/portfolio-microverse/)
+- [https://chiedozie013.github.io/]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Walkthrough Using Loom
 
-- [Walktrough Video](https://www.loom.com/share/2089dc55382a4695a2da324a881ee209?sid=c3e95f43-339f-4598-8ec0-d0ec5031dcec)
+- [Walktrough Video]()
 
 # 💻 Getting Started <a name="getting-started"></a>
 
