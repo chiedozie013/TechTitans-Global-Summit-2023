@@ -1,0 +1,89 @@
+.about-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: var(--color-lighter-gray);
+}
+
+.about-hero h4 {
+  font-size: 25px;
+  color: var(--color-royal-orange);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.about-hero h1 {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 35px;
+  color: var(--color-royal-orange);
+  margin-bottom: 30px;
+  text-align: center;
+}
+.about-intro {
+  background-color: var(--color-white);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: -6%;
+  text-align: center;
+  padding: 25px 10px;
+  color: var(--color-black);
+}
+
+.about-contact {
+  background-color: var(--color-lighter-gray);
+  padding: 20px 30px;
+}
+.about-contact p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--color-text-gray);
+}
+.about-contact h4 {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: var(--color-gray);
+}
+
+.logo-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 10px;
+  background-color: var(--color-white);
+}
+.logo-info-heading h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: var(--color-dark-charcoal);
+}
+.logo-underline {
+  border-bottom: 2px solid #a04038;
+  width: 40px;
+}
+.logo-info p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -3%;
+  text-align: center;
+}
+
+.logo-info img {
+  margin: 30px 0;
+}
