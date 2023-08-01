@@ -55,7 +55,8 @@
   color: var(--color-gray);
 }
 
-.logo-info {
+.logo-info,
+.previous-summit-info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,7 +65,8 @@
   padding: 30px 10px;
   background-color: var(--color-white);
 }
-.logo-info-heading h2 {
+.logo-info-heading h2,
+.previous-summit-info h2 {
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
@@ -76,14 +78,91 @@
   border-bottom: 2px solid #a04038;
   width: 40px;
 }
-.logo-info p {
+.logo-info p,
+.previous-summit-info p {
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -3%;
   text-align: center;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--color-light-gray);
+  border-bottom: 1px solid var(--color-light-gray);
+}
+.logo img {
+  padding: 30px 0;
+}
 
-.logo-info img {
-  margin: 30px 0;
+.previous-summit-info {
+  margin-top: 20px;
+  gap: 10px;
+  border-top: 1px solid var(--color-light-gray);
+}
+
+.previous-summit-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+.buenous-img-container::before,
+.hawaii-img-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-royal-orange);
+  opacity: 0.5;
+  z-index: -1;
+}
+.buenous-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  width: 334px;
+  height: 200px;
+  background-image: url(../assets/images/previous-buenos-aires-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+.hawaii-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  width: 334px;
+  height: 200px;
+  background-image: url(../assets/images/previous-hawaii-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+.buenous-img-container h2,
+.hawaii-img-container h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 21px;
+  color: var(--color-white);
+}
+
+.buenous-img-container p,
+.hawaii-img-container p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--color-white);
 }
