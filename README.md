@@ -116,6 +116,7 @@ If you like this project or would love to tell me ways to improve it, contact me
 # 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse community for this opportunity to learn new things.
+I would also like to acknowledge the product designer of this project. Cindy Shin
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
