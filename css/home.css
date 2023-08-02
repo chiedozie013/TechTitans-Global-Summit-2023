@@ -628,6 +628,9 @@ body {
     width: 20%;
   }
 
+  .program-card:hover {
+    border: 3px solid var(--color-lighter-gray);
+  }
   .lecture-text {
     flex-direction: column;
   }
