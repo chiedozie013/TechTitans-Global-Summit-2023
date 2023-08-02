@@ -1,0 +1,280 @@
+.about-container {
+  background-color: var(--color-lighter-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.about-hero h4 {
+  font-size: 25px;
+  color: var(--color-royal-orange);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.about-hero h1 {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 35px;
+  color: var(--color-royal-orange);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-intro {
+  background-color: var(--color-white);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: -6%;
+  text-align: center;
+  padding: 25px 10px;
+  color: var(--color-black);
+}
+
+.about-contact {
+  background-color: var(--color-lighter-gray);
+  padding: 20px 30px;
+}
+
+.about-contact p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--color-text-gray);
+}
+
+.about-contact h4 {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: var(--color-gray);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.logo-info,
+.previous-summit-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 10px;
+  background-color: var(--color-white);
+}
+
+.logo-info-heading h2,
+.previous-summit-info h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: var(--color-dark-charcoal);
+}
+
+.logo-underline {
+  border-bottom: 2px solid #a04038;
+  width: 40px;
+}
+
+.logo-info p,
+.previous-summit-info p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -3%;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--color-light-gray);
+  border-bottom: 1px solid var(--color-light-gray);
+}
+
+.logo img {
+  padding: 30px 0;
+}
+
+.previous-summit-info {
+  margin-top: 20px;
+  gap: 10px;
+  border-top: 1px solid var(--color-light-gray);
+}
+
+.previous-summit-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+.buenous-img-container::before,
+.hawaii-img-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-royal-orange);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.buenous-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  width: 334px;
+  height: 200px;
+  background-image: url(../assets/images/previous-buenos-aires-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+.hawaii-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  width: 334px;
+  height: 200px;
+  background-image: url(../assets/images/previous-hawaii-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+.buenous-img-container h2,
+.hawaii-img-container h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 21px;
+  color: var(--color-white);
+}
+
+.buenous-img-container p,
+.hawaii-img-container p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--color-white);
+}
+
+.desktop-icon {
+  display: none;
+}
+
+/* DESKTOP STYLES */
+@media screen and (min-width: 750px) {
+  .about-container {
+    padding-top: 150px;
+    padding-bottom: 80px;
+  }
+
+  .about-hero h4,
+  .partners-container,
+  .mobile-icon {
+    display: none;
+  }
+
+  .about-hero h1 {
+    font-size: 45px;
+    width: 60%;
+    line-height: 42px;
+  }
+
+  .about-intro {
+    width: 60%;
+  }
+
+  .about-intro p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .about-contact p {
+    font-size: 16px;
+    letter-spacing: 3%;
+  }
+
+  .about-contact h4 {
+    font-size: 17px;
+    letter-spacing: 2%;
+  }
+
+  .logo-container {
+    padding-bottom: 50px;
+  }
+
+  .logo-info-heading {
+    display: flex;
+    gap: 7px;
+    padding-top: 50px;
+  }
+
+  .logo-info-heading h2,
+  .previous-summit-info h2 {
+    font-size: 27px;
+    letter-spacing: -3%;
+  }
+
+  .logo {
+    padding: 20px 0;
+    border: 1px solid var(--color-light-gray);
+    width: 20%;
+    margin: auto;
+  }
+
+  .previous-summit-img {
+    flex-direction: row;
+  }
+
+  .footer-container {
+    background-color: var(--color-gray);
+    gap: 100px;
+    padding: 70px 0;
+  }
+
+  .footer-container img {
+    width: 150px;
+    height: 30px;
+  }
+
+  .footer-text p {
+    font-size: 16px;
+    line-height: 15px;
+    color: var(--color-white);
+  }
+
+  .desktop-icon {
+    display: inline-block;
+  }
+}
