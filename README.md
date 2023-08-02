@@ -94,8 +94,9 @@ Install this project with:
 
 # 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Contact form]**
+- [ ] **[Create the program page]**
 - [ ] **[join page to register]**
+- [ ] **[Create the news page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
