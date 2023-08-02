@@ -51,6 +51,8 @@
 
 ## Walkthrough Using Loom
 
+- [Walktrough Video](https://www.loom.com/share/475c6f765d144c0789ffaa3ba246871e?sid=6bc90d77-e543-4c61-907d-f42d4930d834)
+
 # 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
